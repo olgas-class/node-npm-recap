@@ -1,5 +1,7 @@
-import getName from "./names.js";
-import getHobbies from "./hobbies.js";
+// import getName from "./names.js";
+// import getHobbies from "./hobbies.js";
+const getName = require("./names.js");
+const getHobbies = require("./hobbies.js");
 
 function getPerson() {
   const name = getName("Pippo", "Bianchi");
@@ -11,4 +13,6 @@ function getPerson() {
   };
 }
 
-export default getPerson;
+const myVar = "Ciao";
+
+module.exports = { getPerson, myVar };

@@ -5,4 +5,4 @@ function getName(firstNameValue, lastNameValue) {
   };
 }
 
-export default getName;
+module.exports = getName;

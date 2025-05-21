@@ -1,0 +1,15 @@
+{
+  "name": "npm-recap",
+  "version": "1.0.0",
+  "description": "Lavoriamo con i moduli esportando e importando valori e funzioni. Segui questi tre step creando i rispettivi files: 1 - names.js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch js/app.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}
